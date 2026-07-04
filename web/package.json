@@ -3,11 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "dev": "node init && next dev",
+    "build": "node init && next build",
+    "start": "node init && next start",
     "lint": "eslint . --ext .ts,.tsx,.js,.jsx",
-    "test": "node --test ./lib/**/*.test.cjs"
+    "test": "node --test ./lib/**/*.test.cjs ./components/**/*.test.cjs"
   },
   "dependencies": {
     "@creit.tech/stellar-wallets-kit": "^1.9.5",
