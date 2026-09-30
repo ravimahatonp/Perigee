@@ -9,9 +9,8 @@ test_snapshots/
 
 # Misc
 .DS_Store
-.env
-.env.local
 
 # Coverage reports (scripts/coverage.sh)
 coverage-report/
 lcov.info
+config.bat
