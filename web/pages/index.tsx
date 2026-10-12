@@ -144,7 +144,7 @@ export default function Home() {
       />
 
       <div className="w-full max-w-7xl px-4 py-8">
-        <header className="mb-8 flex items-center justify-between">
+        <header className="mb-8 flex flex-col sm:flex-row gap-4 items-start sm:items-center justify-between">
           <h1 className="text-2xl font-bold text-sky-400">{t("home.title")}</h1>
           <ConnectButton />
         </header>
